@@ -1,0 +1,6 @@
+﻿  question5.cpp
+d:\michael\unisa\assignments\assignment 2\assignments\assignments\question5.cpp(58): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\michael\unisa\assignments\assignment 2\assignments\assignments\question5.cpp(77): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\michael\unisa\assignments\assignment 2\assignments\assignments\question5.cpp(92): warning C4305: 'argument': truncation from 'double' to 'float'
+  Assignments.vcxproj -> D:\Michael\UNISA\Assignments\Assignment 2\Assignments\Debug\Assignments.exe
+  Assignments.vcxproj -> D:\Michael\UNISA\Assignments\Assignment 2\Assignments\Debug\Assignments.pdb (Partial PDB)
