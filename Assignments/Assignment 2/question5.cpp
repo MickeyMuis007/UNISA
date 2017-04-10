@@ -41,9 +41,9 @@ bool qaulifyForDiscount(string customerNo) {
 		return false;
 }
 
-float computeDiscount(string customerNo, float amount) {	
+float computeDiscount(string customerNo, float amount) {
 	float discountPerc = 0, discountAmount;
-	if (qaulifyForDiscount(customerNo)) {		
+	if (qaulifyForDiscount(customerNo)) {
 		cout << "Enter discount % for customer " + customerNo + ": ";
 		cin >> discountPerc;
 	}
@@ -61,7 +61,7 @@ void printCustomerStatement() {
 	cout << "\tCustomer name\t: " << name << endl;
 	cout << "\tCustomer number\t: " << customerNo << endl << endl;
 	cout << "\tCarpet price\t: " << carpetPrice << endl;
-	cout << "\tLabour\t\t: " << labourTotal << endl << endl;	
+	cout << "\tLabour\t\t: " << labourTotal << endl << endl;
 	cout << "\tSubtotal\t: " << total << endl;
 	cout << "\tLess discount\t: " << discount << endl << endl;
 	total = total + discount;
@@ -70,13 +70,13 @@ void printCustomerStatement() {
 	cout << "\tTotal\t\t: " << total + tax << endl << endl << endl;
 
 }
-int main () {	
+int main () {
 
 	//First Customer
 	name = "Mr. Wilson";
 	customerNo = "81429";
 	area = calculateCarpetSize(8.2, 6.8);
-	carpetPrice = calculateCarpetCost(area, 159.50);	
+	carpetPrice = calculateCarpetCost(area, 159.50);
 	printCustomerStatement();
 
 	//Second Customer
