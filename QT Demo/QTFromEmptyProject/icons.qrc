@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="image/goals.jpg">C:/Users/Michaelh/Pictures/Inspiration/Own goals.jpg</file>
+    </qresource>
+</RCC>
